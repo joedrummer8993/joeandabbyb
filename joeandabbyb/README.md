@@ -1,2 +1,0 @@
-# joeandabbyb
-Our Wedding Website
