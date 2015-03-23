@@ -1,0 +1,11 @@
+{
+	"name": "JoeAndAbbyB",
+	"version": "o.o.1",
+	"private": "true",
+	"dependencies": {
+		"express": "*",
+		"jade": "*",
+		"stylus": "*",
+		"nib": "*"
+	}
+}
