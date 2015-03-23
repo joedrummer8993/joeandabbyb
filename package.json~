@@ -1,11 +1,12 @@
 {
 	"name": "JoeAndAbbyB",
-	"version": "o.o.1",
+	"version": "0.0.1",
 	"private": "true",
 	"dependencies": {
 		"express": "*",
 		"jade": "*",
 		"stylus": "*",
-		"nib": "*"
+		"nib": "*",
+		"morgan": "*",
 	}
 }
