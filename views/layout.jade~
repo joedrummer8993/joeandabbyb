@@ -5,7 +5,7 @@ html
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
 		header
-			ul(id='nav')
+			#nav
 				li: a Home 
 				li: a The Bride & Groom
 				li: a The Maids & Men

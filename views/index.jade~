@@ -1,6 +1,6 @@
 extend layout
 block content
-	#banner
+	div #banner
 		img(src='http://localhost:3000/images/GettingMarriedBanner.jpg')
 	p
 		| Vivamus hendrerit arcu sed erat molestie
