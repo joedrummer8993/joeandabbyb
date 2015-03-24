@@ -5,12 +5,14 @@ var express = require('express')
 	, stylus = require('stylus')
 	, nib = require('nib')
 	, morgan = require('morgan')
+    , jeet = require('jeet')
 
 var app = express()
 function compile(str, path) {
   return stylus(str)
     .set('filename', path)
     .use(nib())
+    .use(jeet())
 }
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jade')
@@ -26,4 +28,5 @@ app.get('/', function (req, res) {
 	{ title : 'Home' }
 	)
 })
+
 app.listen(3000)
