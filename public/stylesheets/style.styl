@@ -1,30 +1,31 @@
 @import 'nib'
 @import 'jeet'
 global-reset()
+edit()
 primary-color = #A0D2A1
 t-color-2 = #6EA06F
 body
-	background-color white
-	max-width 100%
-	min-width 400px
-#bannerimage
-	margin-top 10px
+    max-width 100%
+    span(1)
 header
-	background-color primary-color
+    background-color primary-color
+    span(1)
+	
 #nav
-	color t-color-2
+    width 100%
+    color t-color-2
 #nav li
-	display block
-	display inline
-	float left
-	width 20%
-	margin-top 10px
-	text-align center
-#banner
+    column(1/5 1, gutter: .5)
+    margin-top 10px
+    display block
+    text-align center
+banner
 	background-color primary-color
-	max-width 100%
+	span(1)
+.bannerimage
+    center(1410px)
+    width 100%
 footer
-	font-size 12px
-	text-align center
-	buffer 10px
-
+    font-size 12px
+    center(100%)
+    text-align center

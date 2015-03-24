@@ -89,34 +89,128 @@ td {
 a img {
   border: none;
 }
-body {
-  background-color: #fff;
-  max-width: 100%;
-  min-width: 400px;
+* {
+  background: rgba(0,0,0,0.05);
 }
-#bannerimage {
-  margin-top: 10px;
+body {
+  max-width: 100%;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+body:before,
+body:after {
+  content: '';
+  display: table;
+}
+body:after {
+  clear: both;
 }
 header {
   background-color: #a0d2a1;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+header:before,
+header:after {
+  content: '';
+  display: table;
+}
+header:after {
+  clear: both;
 }
 #nav {
+  width: 100%;
   color: #6ea06f;
 }
 #nav li {
-  display: block;
-  display: inline;
+  *zoom: 1;
   float: left;
-  width: 20%;
+  clear: none;
+  text-align: inherit;
+  width: 19.6%;
+  margin-left: 0%;
+  margin-right: 0.5%;
   margin-top: 10px;
+  display: block;
   text-align: center;
 }
-#banner {
+#nav li:before,
+#nav li:after {
+  content: '';
+  display: table;
+}
+#nav li:after {
+  clear: both;
+}
+#nav li:last-child {
+  margin-right: 0%;
+}
+banner {
   background-color: #a0d2a1;
-  max-width: 100%;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+banner:before,
+banner:after {
+  content: '';
+  display: table;
+}
+banner:after {
+  clear: both;
+}
+.bannerimage {
+  *zoom: 1;
+  width: auto;
+  max-width: 1410px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.bannerimage:before,
+.bannerimage:after {
+  content: '';
+  display: table;
+}
+.bannerimage:after {
+  clear: both;
 }
 footer {
   font-size: 12px;
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
-  buffer: 10px;
+}
+footer:before,
+footer:after {
+  content: '';
+  display: table;
+}
+footer:after {
+  clear: both;
 }
