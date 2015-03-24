@@ -7,10 +7,10 @@ html
 		header
 			ul(id='nav')
 				li: a Home 
-				li: a The Bride & Groom
-				li: a The Maids & Men
-				li: a The Location
-				li: a The Registry
+				li: a Bride & Groom
+				li: a Maids & Men
+				li: a Location
+				li: a Registry
 				li: a 
 		.container
 			.main-content
@@ -18,4 +18,4 @@ html
 			.sidebar
 				block sidebar
 		footer
-			p Running on node with Express, Jade and Stylus
+			p Copyright Joe Benscoter 2015

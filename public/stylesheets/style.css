@@ -92,18 +92,33 @@ a img {
 body {
   background-color: #fff;
   max-width: 100%;
+  min-width: 400px;
 }
 #bannerimage {
+  margin-top: 10px;
   max-width: 100%;
 }
 header {
   background-color: #a0d2a1;
   max-width: 100%;
 }
-nav {
+#nav {
+  color: #6ea06f;
+}
+#nav li {
+  display: block;
+  display: inline;
   float: left;
+  width: 20%;
+  margin-top: 10px;
+  text-align: center;
 }
 #banner {
   background-color: #a0d2a1;
   max-width: 100%;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  buffer: 10px;
 }
