@@ -1,16 +1,25 @@
 {
     "name": "JoeAndAbbyB",
     "version": "0.0.1",
-    "private": "true",
-    "engines": {
-        "node": "0.10.34"
+    "description": "Our wedding website.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
     },
-        "dependencies": {
+     "dependencies": {
         "express": "4.12.3",
         "jade": "1.9.2",
         "stylus": "0.50.0",
         "nib": "1.1.0",
         "morgan": "1.5.2",
         "jeet": "6.1.2"
-    }
+    },
+    "engines": {
+        "node": "0.10.34"
+    },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/joedrummer8993/joeandabbyb.git"
+  }
+       
 }
