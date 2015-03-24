@@ -1,13 +1,14 @@
 {
-	"name": "JoeAndAbbyB",
-	"version": "0.0.1",
-	"private": "true",
-	"dependencies": {
-		"express": "4.12.3",
-		"jade": "1.9.2",
-		"stylus": "0.50.0",
-		"nib": "1.1.0",
+    "name": "JoeAndAbbyB",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+        "node":  "0.10.34",
+        "express": "4.12.3",
+        "jade": "1.9.2",
+        "stylus": "0.50.0",
+        "nib": "1.1.0",
         "morgan": "1.5.2",
-        "jeet":  "6.1.2"
-	}
+        "jeet": "6.1.2"
+    }
 }
