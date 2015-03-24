@@ -91,10 +91,19 @@ a img {
 }
 body {
   background-color: #fff;
+  max-width: 100%;
+}
+#bannerimage {
+  max-width: 100%;
 }
 header {
   background-color: #a0d2a1;
+  max-width: 100%;
+}
+nav {
+  float: left;
 }
 #banner {
   background-color: #a0d2a1;
+  max-width: 100%;
 }
