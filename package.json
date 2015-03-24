@@ -2,8 +2,10 @@
     "name": "JoeAndAbbyB",
     "version": "0.0.1",
     "private": "true",
-    "dependencies": {
-        "node":  "0.10.34",
+    "engines": {
+        "node": "0.10.34"
+    },
+        "dependencies": {
         "express": "4.12.3",
         "jade": "1.9.2",
         "stylus": "0.50.0",
