@@ -89,9 +89,6 @@ td {
 a img {
   border: none;
 }
-* {
-  background: rgba(0,0,0,0.05);
-}
 body {
   max-width: 100%;
   *zoom: 1;
