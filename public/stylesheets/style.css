@@ -173,7 +173,7 @@ banner:after {
 .bannerimage {
   *zoom: 1;
   width: auto;
-  max-width: 1410px;
+  max-width: 1600px;
   float: none;
   display: block;
   margin-right: auto;
@@ -190,6 +190,47 @@ banner:after {
 .bannerimage:after {
   clear: both;
 }
+details {
+  width: 100%;
+  *zoom: 1;
+  width: auto;
+  max-width: 1600px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+details:before,
+details:after {
+  content: '';
+  display: table;
+}
+details:after {
+  clear: both;
+}
+details p {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.3333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+details p:before,
+details p:after {
+  content: '';
+  display: table;
+}
+details p:after {
+  clear: both;
+}
+details p:last-child {
+  margin-right: 0%;
+}
 footer {
   font-size: 12px;
   *zoom: 1;
@@ -202,6 +243,7 @@ footer {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+  background-color: #808080;
 }
 footer:before,
 footer:after {

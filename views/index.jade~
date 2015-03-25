@@ -1,16 +1,13 @@
 extend layout
 block content
-	#banner
-		img(id='bannerimage' src='http://localhost:3000/images/GettingMarriedBanner.jpg')
-	p
-		| Vivamus hendrerit arcu sed erat molestie
-		| vehicula. Sed auctor neque eu tellus
-		| rhoncus ut eleifend nibh porttitor. Ut in.
-	p
-		| Donec congue lacinia dui, a porttitor
-		| lectus condimentum laoreet. Nunc eu
-		| ullamcorper orci. Quisque eget odio ac
-		| lectus vestibulum faucibus eget in metus.
-		| In pellentesque faucibus vestibulum. Nulla
-		| at nulla justo, eget luctus tortor.
+	banner
+		img(class='bannerimage' src='/images/GettingMarriedBanner.png')
+	details
+		p
+			|this is column 1
+		p
+			this is column 2
+		p
+			this is column 3
+
 
