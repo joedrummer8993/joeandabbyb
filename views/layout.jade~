@@ -4,7 +4,8 @@ html
 		title #{title} - Joe and Abby B
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
-		header
+		//
+			header
 			ul(id='nav')
 				li: a Home 
 				li: a Bride & Groom
@@ -14,7 +15,6 @@ html
 		.container
 			.main-content
 				block content
-			.sidebar
-				block sidebar
+			p Site under construction.  Details on Who, What, When, and Where to Come.  Check back soon!
 		footer
 			p Copyright Joe Benscoter 2015
