@@ -190,7 +190,7 @@ banner:after {
 .bannerimage:after {
   clear: both;
 }
-details {
+.eventDetails {
   width: 100%;
   *zoom: 1;
   width: auto;
@@ -202,15 +202,18 @@ details {
   padding-left: 0;
   padding-right: 0;
 }
-details:before,
-details:after {
+.eventDetails:before,
+.eventDetails:after {
   content: '';
   display: table;
 }
-details:after {
+.eventDetails:after {
   clear: both;
 }
-details p {
+.detailsCard p {
+  text-align: center;
+}
+.detailsCard {
   *zoom: 1;
   float: left;
   clear: none;
@@ -218,17 +221,16 @@ details p {
   width: 31.3333333333333%;
   margin-left: 0%;
   margin-right: 3%;
-  text-align: center;
 }
-details p:before,
-details p:after {
+.detailsCard:before,
+.detailsCard:after {
   content: '';
   display: table;
 }
-details p:after {
+.detailsCard:after {
   clear: both;
 }
-details p:last-child {
+.detailsCard:last-child {
   margin-right: 0%;
 }
 footer {
