@@ -194,7 +194,7 @@ banner:after {
   width: 100%;
   *zoom: 1;
   width: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   float: none;
   display: block;
   margin-right: auto;
@@ -210,10 +210,9 @@ banner:after {
 .eventDetails:after {
   clear: both;
 }
-.detailsCard p {
-  text-align: center;
-}
 .detailsCard {
+  margin: 10px;
+  float: left;
   *zoom: 1;
   float: left;
   clear: none;
@@ -221,6 +220,7 @@ banner:after {
   width: 31.3333333333333%;
   margin-left: 0%;
   margin-right: 3%;
+  background-color: #dadada;
 }
 .detailsCard:before,
 .detailsCard:after {
@@ -269,6 +269,19 @@ banner:after {
   .detailsCard:nth-child(1n+1) {
     clear: both;
   }
+}
+.detailsCard h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 5px;
+}
+.detailsCard h4 {
+  text-align: center;
+  font-size: 23px;
+  margin: 20px;
+}
+.detailsCard p {
+  text-align: center;
 }
 footer {
   font-size: 12px;

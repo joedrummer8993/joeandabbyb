@@ -3,6 +3,7 @@
 global-reset()
 
 primary-color = #a0d2a1
+secondary-color = #dadada
 t-color-2 = #6EA06F
 body
     max-width 100%
@@ -26,19 +27,31 @@ banner
     center(1600px)
     width 100%
 .eventDetails
-
 	width 100%
-	center(1600px)
-.detailsCard p
-	text-align center
+	center(1200px)
+	
+	
 .detailsCard
+	margin 10px
+	float left
 	column(1/3, cycle: 3)
+	background-color secondary-color
 	
 	@media screen and (max-width: 600px)
 		column(1, uncycle: 3, cycle: 1)
-	
+.detailsCard h3
+	text-align center
+	font-size 26px
+	margin 5px
+.detailsCard h4
+	text-align center
+	font-size 23px
+	margin 20px
+.detailsCard p
+	text-align center
 footer
     font-size 12px
     center(100%)
     text-align center
     background-color grey
+	
