@@ -194,7 +194,7 @@ banner:after {
   width: 100%;
   *zoom: 1;
   width: auto;
-  max-width: 1200px;
+  max-width: 1600px;
   float: none;
   display: block;
   margin-right: auto;
@@ -212,7 +212,6 @@ banner:after {
 }
 .detailsCard {
   margin: 10px;
-  float: left;
   *zoom: 1;
   float: left;
   clear: none;
@@ -282,6 +281,11 @@ banner:after {
 }
 .detailsCard p {
   text-align: center;
+}
+.cardimage {
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 footer {
   font-size: 12px;
