@@ -190,11 +190,11 @@ banner:after {
 .bannerimage:after {
   clear: both;
 }
-details {
+.eventDetails {
   width: 100%;
   *zoom: 1;
   width: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   float: none;
   display: block;
   margin-right: auto;
@@ -202,15 +202,17 @@ details {
   padding-left: 0;
   padding-right: 0;
 }
-details:before,
-details:after {
+.eventDetails:before,
+.eventDetails:after {
   content: '';
   display: table;
 }
-details:after {
+.eventDetails:after {
   clear: both;
 }
-details p {
+.detailsCard {
+  margin: 10px;
+  float: left;
   *zoom: 1;
   float: left;
   clear: none;
@@ -218,18 +220,68 @@ details p {
   width: 31.3333333333333%;
   margin-left: 0%;
   margin-right: 3%;
-  text-align: center;
+  background-color: #dadada;
 }
-details p:before,
-details p:after {
+.detailsCard:before,
+.detailsCard:after {
   content: '';
   display: table;
 }
-details p:after {
+.detailsCard:after {
   clear: both;
 }
-details p:last-child {
+.detailsCard:nth-child(3n) {
   margin-right: 0%;
+  float: right;
+}
+.detailsCard:nth-child(3n+1) {
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .detailsCard {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .detailsCard:before,
+  .detailsCard:after {
+    content: '';
+    display: table;
+  }
+  .detailsCard:after {
+    clear: both;
+  }
+  .detailsCard:nth-child(3n) {
+    margin-right: 3%;
+    float: left;
+  }
+  .detailsCard:nth-child(3n+1) {
+    clear: none;
+  }
+  .detailsCard:nth-child(1n) {
+    margin-right: 0%;
+    float: right;
+  }
+  .detailsCard:nth-child(1n+1) {
+    clear: both;
+  }
+}
+.detailsCard h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 5px;
+}
+.detailsCard h4 {
+  text-align: center;
+  font-size: 23px;
+  margin: 20px;
+}
+.detailsCard p {
+  text-align: center;
 }
 footer {
   font-size: 12px;
