@@ -99,6 +99,8 @@ body {
   margin-left: 0%;
   margin-right: 0%;
   background-color: #eceeec;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 body:before,
 body:after {
@@ -190,6 +192,21 @@ banner:after {
 }
 .bannerimage:after {
   clear: both;
+}
+.floatingShape {
+  position: fixed;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  -webkit-box-shadow: 5px 5px 5px #888;
+  box-shadow: 5px 5px 5px #888;
+  background-color: #ca797d;
+  color: #fff;
+  text-align: center;
+  line-height: 75px;
+  top: 30px;
+  right: 30px;
 }
 .eventDetails {
   width: 100%;
@@ -289,6 +306,7 @@ banner:after {
   display: block;
   margin: auto;
   width: 100%;
+  height: 200px;
 }
 footer {
   font-size: 12px;
