@@ -289,6 +289,22 @@ banner:after {
     clear: both;
   }
 }
+.detailsCardHead {
+  position: relative;
+  float: left;
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  background-color: #ca797d;
+  color: #fff;
+  margin: 0;
+}
+.detailsCardBody {
+  float: left;
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+}
 .detailsCard h3 {
   text-align: center;
   font-size: 26px;
@@ -303,10 +319,10 @@ banner:after {
   text-align: center;
 }
 .cardimage {
-  display: block;
+  float: left;
   margin: auto;
   width: 100%;
-  height: 200px;
+  height: auto;
 }
 footer {
   font-size: 12px;
