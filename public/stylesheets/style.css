@@ -199,14 +199,27 @@ banner:after {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  -webkit-box-shadow: 5px 5px 5px #888;
-  box-shadow: 5px 5px 5px #888;
+  -webkit-box-shadow: 3px 3px 10px #888;
+  box-shadow: 3px 3px 10px #888;
   background-color: #ca797d;
   color: #fff;
   text-align: center;
   line-height: 75px;
   top: 30px;
   right: 30px;
+  z-index: 55;
+}
+.floatingShape :hover {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 10px #585858;
+  box-shadow: 3px 3px 10px #585858;
+}
+.floatingShape :active {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 3px #585858;
+  box-shadow: 1px 1px 3px #585858;
 }
 .eventDetails {
   width: 100%;
